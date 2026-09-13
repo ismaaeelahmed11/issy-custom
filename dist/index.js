@@ -26835,7 +26835,7 @@ var __webpack_exports__ = {};
 const core = __nccwpck_require__(7484)
 
 try {
-  const nameToGreet = core.getinput ('who-to-greet')
+  const nameToGreet = core.getInput('who-to-greet')
   console.log('Hello ${nameToGreet}!')
   core.setOutput('time', new Date().toTimeString());
 } catch (error) {
